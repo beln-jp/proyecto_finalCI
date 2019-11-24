@@ -1,0 +1,267 @@
+/* HEADER ----------------------------------- */
+body {
+    background: #eaf2e3;
+  }
+  body .background-hero{
+    background-image: url("imagenes/clic.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  body .container {
+    overflow: hidden;
+    min-height: 400px;
+  }
+  nav {
+    height: 46px;
+    background-color: #66d7d1;
+    margin-bottom: 10px;
+  }
+  nav a{
+    float: left;
+    display: flex;
+  }
+  #icon {
+    margin-left: 20px;
+  }
+  #index{
+    overflow: hidden;
+  }
+  /* MENÚ ----------------------------------- */
+  .menu {
+    margin-top: 10px;
+    float: right;
+    display: flex;
+    margin-right: 20px;
+    overflow: hidden;
+    background: none;
+    font-family: "Big Shoulders Display", cursive;
+    border-radius: 10px;
+    justify-content: space-evenly;
+  }
+  .menu a {
+    overflow: hidden;
+    float: right;
+    font-size: 16px;
+    color: #424949;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  .submenu {
+    border-radius: 10px;
+    float: right;
+    overflow: hidden;
+  }
+  .submenu-button {
+    font-size: 16px;
+    font-family: "Big Shoulders Display", cursive;
+  }
+  .menu a:hover,
+  .submenu:hover .submenu-button {
+    border-radius: 10px;
+    background-color: #fff87f;
+    font-family: "Big Shoulders Display", cursive;
+  }
+  .submenu-content {
+    border-radius: 10px;
+    margin-right: 20px;
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #f4f1bb;
+    ;
+    width: auto;
+    z-index: 1;
+  }
+  .submenu-content a {
+    float: right;
+    color: #101742;
+    text-decoration: none;
+  }
+  .submenu-content a:hover {
+    background-color: #fff87f;
+    color: #101742;
+  }
+  .submenu:hover .submenu-content {
+    display: block;
+  }
+  /* Fin de MENÚ ----- */
+  /* Fin de header --- */
+  
+  /* BANNER --------------------------------------- */
+  #clic {
+    color: #9fd4d4;
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+  }
+  form {
+    padding-top: 10px;
+    padding-bottom: 25px;
+  }
+  .banner {
+    width: 1000px;
+    height: 400px;
+  }
+  /* TITULOS ----------------------------------- */
+  h1 {
+    text-align: center;
+    color: #101742;
+    font-family: 'Roboto Mono', monospace;
+  }
+  h3 {
+    color: #101742;
+    font-family: 'Roboto Mono', monospace;
+  }
+  h4 {
+    color: #101742;
+    font-family: 'Roboto Mono', monospace;
+  }
+  p {
+    margin-bottom: 50px;
+    color: #101742;
+    font-family: 'Roboto Mono', monospace;
+  }
+  
+  /* BODY ------------------------------------- */
+  #caja {
+    width: 100%;
+    overflow: hidden;
+  }
+  #requirements {
+    float: left;
+    width: 49%;
+  }
+  #benefit {
+    float: left;
+    padding-left: 10%;
+  }
+  #benefit img {
+    float: left;
+    margin-right: 5px;
+  }
+  #following {
+    text-align: left;
+  }
+  a {
+    text-decoration: none;
+    font-size: 16px;
+    font-family: "Big Shoulders Display", cursive;
+  }
+  .perfil {
+    float: left;
+    width: 12%;
+  }
+  .description {
+    float: right;
+    width: 80%;
+  }
+  .buttonpost {
+    float: right;
+    margin-right: 50px;
+  }
+  #empresas {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .empresa{
+    width: 150px;
+    height: 150px;
+  } 
+  .logo{
+    width: 42px;
+    height: 42px;
+  }
+  div img {
+    border-radius: 20px;
+    width: 150px;
+    height: 150px;
+  } 
+  .imgb {
+    width: 18px;
+    height: 18px;
+  }
+  #back {
+    position: fixed;
+    display: flex;
+    justify-content: right;
+    height: 45px;
+    width: 45px;
+    margin-left: 90%;
+  }
+  .container {
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .puesto {
+    width: auto;
+    height: 150px;
+    padding: 40px;
+  }
+  .align-center{
+    text-align: center;
+  }
+  /* Grillas de postulantes.html */
+  .grids {
+    display: grid;   
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: repeat(5, 1fr);
+  }
+  .responsive-image{
+    width: 100%;
+    height: auto;
+  }
+  .img-avatar{
+    text-align: center;
+    padding: 40px 0;
+  }
+  .navigation-button{
+    padding: 25px 0;
+  }
+  .login-box{
+    padding: 0 40px;
+  }
+  .login-box label{
+    font-family: "Big Shoulders Display", cursive;
+    font-size: 35px;
+    display: block;
+    width: 100%;
+  }
+  .login-box input{
+    width: 100%;
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .login-box button{
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .row {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5px;
+  }
+  .col-8 {
+    width: 66.66%;
+  }
+  .col-4 {
+    width: 33.33%
+  }
+  /* FOOTER ------------------------------------ */
+  footer {
+    height: 42px;
+    align-content: flex-start;
+    background-color: #66d7d1;
+    color: #424949;
+    text-align: center;
+    font-family: "Big Shoulders Display", cursive;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      position: relative;
+   }
